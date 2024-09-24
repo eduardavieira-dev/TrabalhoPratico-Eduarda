@@ -1,0 +1,161 @@
+<!-- Tela de exploração das series (explorer.html)
+Página com possibilidade de pesquisa e filtro de informações sobre as séries disponíveis via API do The Movie DB, apresentadas na estrutura de cards. A tela deve conter:
+(1) campo para pesquisa textual das séries
+(2) barra de filtros com LAYOUT PERSONALIZADO INDIVIDUALMENTE em que cada pessoa deve definir pelo menos 3 opções de filtro a serem aplicados na funcionalidade de exploração. -->
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Um site de filmes com algumas funcionalidades básicas">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap">
+    <meta name="author" content="Eduarda Vieira">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Duda Flix</title>
+    <!-- Boostrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="/assets/css/index.css">
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary px-4">
+        <div class="container-fluid">
+            <a href="index.html" class="px-3">
+                <img width="80px" src="./assets/images/logo.png" alt="Duda Flix"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="explorer.html">Filmes</a>
+              </li>
+             
+              
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+    <!-- nav -->
+
+
+    <div class="container text-center mt-3 ">
+        <div class="row">
+          <div class="col-sm-12 col-md-3 col-lg-3 mb-4">
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+
+
+
+          </div>
+          <div class="col-md-9 col-lg-9 ">
+
+
+            <div class="content">
+                <h2 class="t-conteudo">Explorar séries</h2>
+                <div class="row text-center">
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                      <div class="card mb-4">
+                        <img src="/assets/images/series/Diarios-de-um-Vampiro.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Diario de um Vampiro</h5>
+                          <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+                          <a href="#" class="btn btn-primary">Ver mais</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                      <div class="card mb-4">
+                        <img src="/assets/images/series/chosen.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">The Chosen</h5>
+                          <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+                          <a href="#" class="btn btn-primary">Ver mais</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                      <div class="card mb-4">
+                        <img src="/assets/images/series/gg.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Gossip Girl</h5>
+                          <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+                          <a href="#" class="btn btn-primary">Ver mais</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                      <div class="card mb-4">
+                        <img src="/assets/images/series/gg.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Gossip Girl</h5>
+                          <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+                          <a href="#" class="btn btn-primary">Ver mais</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                      <div class="card mb-4">
+                        <img src="/assets/images/series/gg.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Gossip Girl</h5>
+                          <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+                          <a href="#" class="btn btn-primary">Ver mais</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                      <div class="card mb-4">
+                        <img src="/assets/images/series/gg.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Gossip Girl</h5>
+                          <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+                          <a href="#" class="btn btn-primary">Ver mais</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                      <div class="card mb-4">
+                        <img src="/assets/images/series/gg.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Gossip Girl</h5>
+                          <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+                          <a href="#" class="btn btn-primary">Ver mais</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                      <div class="card mb-4">
+                        <img src="/assets/images/series/gg.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Gossip Girl</h5>
+                          <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+                          <a href="#" class="btn btn-primary">Ver mais</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              
+              
+              </div>
+                   
+
+          </div>
+        </div>
+      </div>
+
+    <footer>
+        <p>Eduarda Vieira | 2024</p>
+      </footer>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+      </body>
+      </html>

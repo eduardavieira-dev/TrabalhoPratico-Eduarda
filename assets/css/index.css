@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+/* font-family: "Karla", sans-serif; */
+
+#infos{
+ display: flex;   
+ padding: 10px;
+ gap: 20px;
+ justify-content: space-between;
+ /* flex-wrap: wrap; */
+}
+
+.info{
+    width: 48%;
+}
+
+.autoria{
+    display: flex;
+    gap: 20px;
+}
+
+.autoria img{
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+
+.t-autor{
+    padding-bottom:5px ;
+    border-bottom: 1px solid black;
+}
+
+
+.btn{
+    background-color: rgb(187, 0, 255);
+    border: none;
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: rgb(149, 0, 203);
+    border: none;
+
+}
+
+.btn-outline-success{  
+    background-color: rgb(229, 156, 255);
+    color: #fff;
+}
+
+.card{
+    padding: 10px;
+    filter: drop-shadow(5px 5px 10px rgba(174, 174, 174, 0.226));
+    background-color: rgb(247, 226, 255);
+}
+
+.t-conteudo{
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(75, 5, 100);
+}
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(229, 156, 255);
+    color: #fff;
+    padding: 10px;
+}
+
+
