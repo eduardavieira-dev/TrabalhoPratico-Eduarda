@@ -66,4 +66,11 @@ footer{
     padding: 10px;
 }
 
+.explorar a{
+    color: rgb(123, 19, 161);
+}
 
+
+.card-body {
+    min-height: 150px; /* Defina uma altura mínima para o corpo do card */
+}
