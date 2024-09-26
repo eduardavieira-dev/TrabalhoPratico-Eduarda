@@ -3,3 +3,142 @@ Página com três seções que apresentam informações sobre uma série especí
 (1) informações gerais: detalhes gerais da série em questão com LAYOUT PERSONALIZADO INDIVIDUALMENTE em que cada pessoa deve definir pelo menos 5 itens a serem apresentados (imagem, descritivo da série, plataforma de exibição, outros detalhes) e um botão para tornar a série uma favorita
 (2) elenco: foto e nome dos participantes da série
 (3) Temporadas e episódios: informações sobre as temporadas e episódios já lançados ou planejados para a série com LAYOUT PERSONALIZADO INDIVIDUALMENTE em que cada pessoa deve escolher como as informações serão dispostas.    -->
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Um site de filmes com algumas funcionalidades básicas">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap">
+    <meta name="author" content="Eduarda Vieira">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/svg+xml" href="./assets/images/logo.png">
+    <title>Duda Flix</title>
+    <!-- Boostrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="/assets/css/index.css">
+  </head>
+  <body>
+      <!-- nav -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary px-4">
+        <div class="container-fluid">
+            <a href="index.html" class="px-3">
+                <img width="80px" src="./assets/images/logo.png" alt="Duda Flix"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ">
+                <span class="m-1"><img src="./assets/images/icon/heart.svg" alt=""></span>
+              <li class="nav-item">
+                <h5 class="explorar"><a class="nav-link" href="explorer.html">Explorar</a></h5>
+              </li>
+             
+              
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+    <!-- nav -->
+
+    <!-- nav -->
+     <div class="container mt-3">
+         <h3 class="t-autor">Descrição</h3>
+         <p class="m-4">Na série The Chosen - Os Escolhidos, acompanha-se os principais momentos de uma grande narrativa religiosa. Em uma nova adaptação dos acontecimentos da Bíblia, na Galileia do século I, Jesus de Nazaré (Jonathan Roumie), um homem simples e de uma família humilde de carpinteiros, auxilia as pessoas à sua volta, independente de suas crenças, origens e aparência. Na companhia de 12 homens, escolhidos para serem seus discípulos, ele ampara os necessitados compartilhando palavras e ações de bondade por onde passa.</p>
+
+         <h3 class="t-autor">Personagens</h3>
+        <div class="row justify-content-center mt-3">
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card card-p mb-3">
+                    <img class="card-img-top" src="./assets/images/personagens/jesus.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5>Jesus</h5>
+                        <p class="card-text">Interpretado por: Jonathan Roumie</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card card-p mb-3">
+                    <img class="card-img-top" src="./assets/images/personagens/pedro.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5>Pedro</h5>
+                        <p class="card-text">Interpretado por: Shahar Isaac</p>
+                    </div>
+                  </div>
+                </div>
+          
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card card-p mb-3">
+                    <img class="card-img-top" src="./assets/images/personagens/joao.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5>João</h5>
+                        <p class="card-text">Interpretado por: George Xanthis</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="card card-p mb-3">
+                        <img class="card-img-top" src="./assets/images/personagens/mateus.jpg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5>Mateus</h5>
+                            <p class="card-text">Interpretado por: Paras Patel </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="card card-p mb-3">
+                        <img class="card-img-top" src="./assets/images/personagens/maria.jpg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5>Maria Madalena</h5>
+                            <p class="card-text">Interpretado por: Elizabeth Tabish </p>
+                        </div>
+                    </div>
+                </div>
+                
+    </div>
+
+    <div class="content">
+        <div class="row">
+
+      
+        <div class="col-lg-4 mb-4">
+            <h3 class="t-autor">Onde é exibida a série </h3>
+            <h4>Netflix</h4>
+
+            <button class="btn btn-outline-success" type="submit">Incluir a minhas Séries</button>
+        </div>
+        <div class="col-lg-8">
+            <h3 class="t-autor titulo-temp">Temporadas e episódios</h3>
+            <div class="temp">
+                <span class="temporada">1 temporada: </span><span class="episodeos">8 episodeos</span>
+            </div>
+            <div class="temp">
+                <span class="temporada">2 temporada: </span><span class="episodeos">8 episodeos</span>
+            </div>
+            <div class="temp">
+                <span class="temporada">3 temporada: </span><span class="episodeos">8 episodeos</span>
+            </div>
+            <div class="temp">
+                <span class="temporada">4 temporada: </span><span class="episodeos">8 episodeos</span>
+            </div>
+
+        </div>
+    </div>
+  </div>
+
+     </div>
+
+
+
+
+
+
+
+<footer>
+  <p>Eduarda Vieira | 2024</p>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

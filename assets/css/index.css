@@ -74,3 +74,20 @@ footer{
 .card-body {
     min-height: 150px; /* Defina uma altura mínima para o corpo do card */
 }
+ .card-p{
+  background-color: rgb(246, 231, 255);
+ }
+
+.temporada{
+    font-weight: bold;
+    color: rgb(130, 9, 160);
+}
+
+.temp{
+    margin-bottom: 5px;
+}
+
+.titulo-temp{
+    color: rgb(176, 27, 213);
+
+}
