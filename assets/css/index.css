@@ -91,3 +91,24 @@ footer{
     color: rgb(176, 27, 213);
 
 }
+
+.lista li{
+    color: rgb(130, 9, 160);
+    border: 0;
+    outline: 0;
+}
+
+.lista li:hover{
+    color: rgb(191, 43, 228);
+    border: 0;
+    outline: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.titulo{
+    font-size: 19px;
+    font-weight: bold;
+}
