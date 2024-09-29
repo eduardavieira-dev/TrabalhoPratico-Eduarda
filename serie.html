@@ -42,70 +42,104 @@ Página com três seções que apresentam informações sobre uma série especí
         </div>
       </nav>
     <!-- nav -->
+  
 
     <!-- nav -->
      <div class="container mt-3">
          <h3 class="t-autor">Descrição</h3>
          <p class="m-4">Na série The Chosen - Os Escolhidos, acompanha-se os principais momentos de uma grande narrativa religiosa. Em uma nova adaptação dos acontecimentos da Bíblia, na Galileia do século I, Jesus de Nazaré (Jonathan Roumie), um homem simples e de uma família humilde de carpinteiros, auxilia as pessoas à sua volta, independente de suas crenças, origens e aparência. Na companhia de 12 homens, escolhidos para serem seus discípulos, ele ampara os necessitados compartilhando palavras e ações de bondade por onde passa.</p>
 
-         <h3 class="t-autor">Personagens</h3>
-        <div class="row justify-content-center mt-3">
-            <div class="col-sm-6 col-md-4 col-lg-2">
-                <div class="card card-p mb-3">
-                    <img class="card-img-top" src="./assets/images/personagens/jesus.jpg" alt="Imagem de capa do card">
-                    <div class="card-body">
-                        <h5>Jesus</h5>
-                        <p class="card-text">Interpretado por: Jonathan Roumie</p>
-                    </div>
+         <h3 class="t-autor my-3">Personagens</h3>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <!-- Primeira slide -->
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card">
+                <img class="card-img-top" src="./assets/images/personagens/jesus.jpg" alt="Jesus">
+                <div class="card-body">
+                  <h5>Jesus</h5>
+                  <p class="card-text">Interpretado por: Jonathan Roumie</p>
                 </div>
+              </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-2">
-                <div class="card card-p mb-3">
-                    <img class="card-img-top" src="./assets/images/personagens/pedro.jpg" alt="Imagem de capa do card">
-                    <div class="card-body">
-                        <h5>Pedro</h5>
-                        <p class="card-text">Interpretado por: Shahar Isaac</p>
-                    </div>
-                  </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card">
+                <img class="card-img-top" src="./assets/images/personagens/pedro.jpg" alt="Pedro">
+                <div class="card-body">
+                  <h5>Pedro</h5>
+                  <p class="card-text">Interpretado por: Shahar Isaac</p>
                 </div>
-          
-            <div class="col-sm-6 col-md-4 col-lg-2">
-                <div class="card card-p mb-3">
-                    <img class="card-img-top" src="./assets/images/personagens/joao.jpg" alt="Imagem de capa do card">
-                    <div class="card-body">
-                        <h5>João</h5>
-                        <p class="card-text">Interpretado por: George Xanthis</p>
-                    </div>
-                  </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card">
+                <img class="card-img-top" src="./assets/images/personagens/joao.jpg" alt="João">
+                <div class="card-body">
+                  <h5>João</h5>
+                  <p class="card-text">Interpretado por: George Xanthis</p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-2">
-                    <div class="card card-p mb-3">
-                        <img class="card-img-top" src="./assets/images/personagens/mateus.jpg" alt="Imagem de capa do card">
-                        <div class="card-body">
-                            <h5>Mateus</h5>
-                            <p class="card-text">Interpretado por: Paras Patel </p>
-                        </div>
-                    </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card">
+                <img class="card-img-top" src="./assets/images/personagens/mateus.jpg" alt="Mateus">
+                <div class="card-body">
+                  <h5>Mateus</h5>
+                  <p class="card-text">Interpretado por: Paras Patel</p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-2">
-                    <div class="card card-p mb-3">
-                        <img class="card-img-top" src="./assets/images/personagens/maria.jpg" alt="Imagem de capa do card">
-                        <div class="card-body">
-                            <h5>Maria Madalena</h5>
-                            <p class="card-text">Interpretado por: Elizabeth Tabish </p>
-                        </div>
-                    </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Segunda slide -->
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card">
+                <img class="card-img-top" src="./assets/images/personagens/maria.jpg" alt="Maria Madalena">
+                <div class="card-body">
+                  <h5>Maria Madalena</h5>
+                  <p class="card-text">Interpretada por: Elizabeth Tabish</p>
                 </div>
-                
+              </div>
+            </div>
+            <!-- Adicione mais cards aqui -->
+          </div>
+        </div>
+      </div>
+      
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
+    
+            
+              
+            
+                
+   
 
-    <div class="content">
+    <div class="content mt-5">
         <div class="row">
 
       
         <div class="col-lg-4 mb-4">
             <h3 class="t-autor">Onde é exibida a série </h3>
-            <h4>Netflix</h4>
+            <!-- <h4>Netflix</h4> -->
+            <img class="plataforma" src="./assets/images/plataformas/netflix.webp" alt="">
 
             <div class="my-3">
                 <span class="titulo mt-3">Genêro: </span><span>Drama</span>

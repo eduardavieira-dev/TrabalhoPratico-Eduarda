@@ -72,7 +72,7 @@ footer{
 
 
 .card-body {
-    min-height: 150px; /* Defina uma altura mínima para o corpo do card */
+    min-height: 100px; /* Defina uma altura mínima para o corpo do card */
 }
  .card-p{
   background-color: rgb(246, 231, 255);
@@ -111,4 +111,9 @@ a{
 .titulo{
     font-size: 19px;
     font-weight: bold;
+}
+
+.plataforma{
+    width:40px;
+    border-radius: 5px;
 }
