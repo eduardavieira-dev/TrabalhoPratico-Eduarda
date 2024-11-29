@@ -117,3 +117,184 @@ a{
     width:40px;
     border-radius: 5px;
 }
+
+
+/* cards carrossel  */
+.card-wrapper{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 0px 30px 00px;
+    padding: 10px 20px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+ .card-list .card-item{
+    list-style: none;
+}
+
+.card-list .card-item .card-link {
+    user-select: none;
+    display: block;
+    background: #f9edff;
+    /* padding: 15px 18px; */
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    box-shadow: 0 8px 12px rgba(136, 45, 164, 0.244);
+}
+.card-title{
+    padding: 0 20px;
+    
+}
+.card-text{
+    padding: 0 20px;
+    margin: 20px 0;
+    color: #392a3c;
+    font-size: 1.1rem;
+    padding-bottom: 15px;
+}
+.card-list .card-item .card-link:hover{
+    border-color: #b43aec;
+    transition: all .7s;
+}
+.card-list .card-link .card-image{
+    width: 100%;
+    aspect-ratio:9/9;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+.card-list .card-link{
+    color: #b43aec;
+    /* padding: 8px 26px; */
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin: 16px 0 18px;
+    background-color: #f0d4fd;
+    width: fit-content;
+    border-radius: 50px;
+}
+
+.card-list .card-link .card-title{
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.card-list .card-link .card-button{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    color: #b43aec;
+    margin: 30px 0 5px;
+    background: none;
+    cursor: pointer;
+    border: 2px solid #b43aec;
+    transform: rotate(-45deg);
+    transition: .4s ease;
+}
+
+.card-list .card-link:hover .card-button{
+    color: #fff;
+    background: #b43aec;
+}
+.card-wrapper .swiper-pagination-bullet{
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+    background: #b43aec;
+    
+}
+.card-wrapper .swiper-pagination-bullet-active{
+    opacity: 1;
+}
+
+.card-wrapper .swipper-slider-button{
+    color: #b43aec;
+
+}
+
+
+/* slider index */
+.swiper-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    right: 10%;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+
+
+  /* Estilo dos botões de navegação */
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #b43aec !important; 
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover para os botões */
+  .swiper-button-next:hover, .swiper-button-prev:hover {
+    color: #8a2ab9; 
+  }
+  
+/* Paginação - Padrão */
+.swiper-pagination-bullet {
+    background-color: #b43aec !important; 
+    opacity: 0.5; 
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Paginação - Ponto ativo */
+  .swiper-pagination-bullet-active {
+    background-color: #b43aec !important;
+    opacity: 1; 
+    transform: scale(1.2); 
+  }
+  /* Legenda */
+  .swiper-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    right: 10%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 19px;
+  }
+  
+  /* Imagem ajustada */
+  .swiper-slide img {
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  /* Responsividade: ocultar legendas em telas pequenas */
+  @media (max-width: 768px) {
+    .swiper-caption {
+      display: none;
+    }
+  }
+  
+
+@media only screen and (min-width: 600px){
+    .card-wrapper{
+        display: flex;
+        max-width: 1200px;
+        margin: 0 50px 30px 50px;
+        padding: 10px 20px;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}

@@ -50,7 +50,7 @@ ORIENTAÇÃO: use componente do bootstrapLinks to an external site. (detalhes no
 
    
     <!-- /header -->
-    
+<!--     
     <main class="main mx-auto py-4">
       <div id="carouselExampleIndicators" class="carousel slide">
           <div class="carousel-indicators">
@@ -90,11 +90,51 @@ ORIENTAÇÃO: use componente do bootstrapLinks to an external site. (detalhes no
               <span class="visually-hidden">Próximo</span>
           </button>
       </div>
+  </main> -->
+
+  <main class="main mx-auto py-4">
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <!-- Slide 1 -->
+        <div class="swiper-slide">
+          <a href="explorer.html">
+            <img src="./assets/images/series/thechosen.jpg" class="d-block w-100" alt="The Chosen">
+          </a>
+          <div class="swiper-caption">
+            <h5>The Chosen</h5>
+            <p>Uma série sobre Jesus, baseada na bíblia. Jesus chama os apóstolos para segui-lo e pregar o evangelho junto a ele.</p>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="swiper-slide">
+          <a href="explorer.html">
+            <img src="./assets/images/series/De_Volta_aos_15-cover.jpg" class="d-block w-100" alt="De Volta aos 15">
+          </a>
+          <div class="swiper-caption">
+            <h5>De Volta aos 15</h5>
+            <p>Uma série brasileira de drama adolescente, baseada no romance de Bruna Vieira, sobre Anita, que volta aos 15 anos.</p>
+          </div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="swiper-slide">
+          <a href="explorer.html">
+            <img src="./assets/images/series/sorriso.jpg" class="d-block w-100" alt="Sorriso Real">
+          </a>
+          <div class="swiper-caption">
+            <h5>Sorriso Real</h5>
+            <p>Um K-drama sobre um homem rico que odeia sorrisos e sua aproximação inesperada de um romance com sua funcionária.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Navigation buttons -->
+      <div class="swipper-slider-button swiper-button-next"></div>
+      <div class="swipper-slider-button swiper-button-prev"></div>
+      <!-- Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
   </main>
   
-
-
-
 
 
 <div class="content">
@@ -287,5 +327,21 @@ ORIENTAÇÃO: use componente do bootstrapLinks to an external site. (detalhes no
   <p>Eduarda Vieira | 2024</p>
 </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper('.mySwiper', {
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
+</script>
 </body>
 </html>
