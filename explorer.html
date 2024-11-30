@@ -16,6 +16,7 @@ Página com possibilidade de pesquisa e filtro de informações sobre as séries
 
     <link rel="stylesheet" href="./assets/css/index.css">
   </head>
+  <link rel="stylesheet" href="./assets/css/explorer.css">
   <body>
     <!-- nav -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary px-4">
@@ -48,151 +49,281 @@ Página com possibilidade de pesquisa e filtro de informações sobre as séries
 
     <div class="container text-center mt-3 ">
         <div class="row">
-          <div class="col-sm-12 col-md-3 col-lg-3 mb-4">
+          <div class="col-sm-12 col-md-8 col-lg-3 mb-4 mx-auto">
             <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                <button class="btn btn-pesquisa btn-outline-success" type="submit">Pesquisar</button>
               </form>
-              <ul class="text-start mt-3 lista">
-                <a href="#"><li class="p-1">Em alta</li></a>
-                <a href="#"><li class="p-1">Doramas</li></a> 
-                <a href="#"><li class="p-1">Drama</li></a>        
-                <a href="#"><li class="p-1">Fantasia</li></a>        
-                <a href="#"><li class="p-1">Romance</li></a>             
-              </ul>
+              <ul class="mx-3 mt-4 list-group text-start">
+                <li class="list-group-item"><a href="#" class="filter-link">Em Alta</a></li>
+                <li class="list-group-item"><a href="#" class="filter-link">Doramas</a></li>
+                <li class="list-group-item"><a href="#" class="filter-link">Drama</a></li>
+                <li class="list-group-item"><a href="#" class="filter-link">Fantasia</a></li>
+                <li class="list-group-item"><a href="#" class="filter-link">Romance</a></li>
+            </ul>
 
 
 
           </div>
-          <div class="col-md-9 col-lg-9 ">
+          <div class="col-md-12 col-lg-9 ">
 
 
             <div class="content">
-                <h2 class="t-conteudo">Explorar séries</h2>
-                <div class="row text-center">
-                    <div class="col-sm-6 col-md-4 col-lg-3">
-                      <div class="card mb-4">
-                        <img src="./assets/images/series/Diarios-de-um-Vampiro.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Diario de um Vampiro</h5>
-                          <p class="card-text">Para mais informações clique no botão abaixo e conheça mais da série</p>
-                          <a href="serie.html" class="btn btn-primary">Ver mais</a>
+
+              <div class="container my-5">
+                <div class="row g-4">
+                    <!-- Card 1 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card shadow-lg rounded-3">
+                            <img src="./assets/images/series/Diarios-de-um-Vampiro.jpg" class="card-img-top rounded-top" alt="Diários de um Vampiro">
+                            <div class="card-body">
+                                <h5 class="card-title text-center font-weight-bold">Diários de um Vampiro</h5>
+                                <p class="card-text text-muted">
+                                    Um dos maiores sucessos de drama e fantasia, cheio de mistério, romance e ação. Uma série baseada na famosa saga literária.
+                                </p>
+                                <a href="#" target="_blank" class="btn btn-primary mt-auto">
+                                    Mais detalhes
+                                </a>
+                            </div>
                         </div>
-                      </div>
                     </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3">
+                    <!-- Card 2 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card shadow-lg rounded-3">
+                            <img src="./assets/images/series/De_Volta_aos_15.jpg" class="card-img-top rounded-top" alt="Outra Série">
+                            <div class="card-body">
+                                <h5 class="card-title text-center font-weight-bold">De volta aos 15</h5>
+                                <p class="card-text text-muted">
+                                    Descrição curta da série. Explore mais sobre o enredo e os personagens desta nova produção.
+                                </p>
+                                <a href="#" target="_blank" class="btn btn-primary mt-auto">
+                                    Mais detalhes
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card shadow-lg rounded-3">
+                            <img src="./assets/images/series/sorriso.webp" class="card-img-top rounded-top" alt="Série Fantástica">
+                            <div class="card-body">
+                                <h5 class="card-title text-center font-weight-bold">Sorriso Real</h5>
+                                <p class="card-text text-muted">
+                                    Uma série de fantasia envolvente, cheia de criaturas fantásticas e aventuras épicas.
+                                </p>
+                                <a href="#" target="_blank" class="btn btn-primary mt-auto">
+                                    Mais detalhes
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card shadow-lg rounded-3">
+                           <img src="./assets/images/series/rainha.png" class="card-img-top rounded-top" alt="Série Fantástica">
+                            <div class="card-body">
+                                <h5 class="card-title text-center font-weight-bold">Rainha das Lagrimas</h5>
+                                <p class="card-text text-muted">
+                                    Uma série de fantasia envolvente, cheia de criaturas fantásticas e aventuras épicas.
+                                </p>
+                                <a href="#" target="_blank" class="btn btn-primary mt-auto">
+                                    Mais detalhes
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 5 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card shadow-lg rounded-3">
+                         <img src="./assets/images/series/chosen.webp" class="card-img-top rounded-top" alt="Série Fantástica">
+                            <div class="card-body">
+                                <h5 class="card-title text-center font-weight-bold">The Chosen</h5>
+                                <p class="card-text text-muted">
+                                    Uma série de fantasia envolvente, cheia de criaturas fantásticas e aventuras épicas.
+                                </p>
+                                <a href="#" target="_blank" class="btn btn-primary mt-auto">
+                                    Mais detalhes
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 6 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card shadow-lg rounded-3">
+                         <img src="./assets/images/series/gg.webp" class="card-img-top rounded-top" alt="Série Fantástica">
+                            <div class="card-body">
+                                <h5 class="card-title text-center font-weight-bold">Gossip Girl</h5>
+                                <p class="card-text text-muted">
+                                    Uma série de fantasia envolvente, cheia de criaturas fantásticas e aventuras épicas.
+                                </p>
+                                <a href="#" target="_blank" class="btn btn-primary mt-auto">
+                                    Mais detalhes
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card shadow-lg rounded-3">
+                           <img src="./assets/images/series/Wandinha.png" class="card-img-top rounded-top" alt="Série Fantástica">
+                            <div class="card-body">
+                                <h5 class="card-title text-center font-weight-bold">Wandinha</h5>
+                                <p class="card-text text-muted">
+                                    Uma série de fantasia envolvente, cheia de criaturas fantásticas e aventuras épicas.
+                                </p>
+                                <a href="#" target="_blank" class="btn btn-primary mt-auto">
+                                    Mais detalhes
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 5 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card shadow-lg rounded-3">
+                         <img src="./assets/images/series/friends.webp" class="card-img-top rounded-top" alt="Série Fantástica">
+                            <div class="card-body">
+                                <h5 class="card-title text-center font-weight-bold">Friends</h5>
+                                <p class="card-text text-muted">
+                                    Uma série de fantasia envolvente, cheia de criaturas fantásticas e aventuras épicas.
+                                </p>
+                                <a href="#" target="_blank" class="btn btn-primary mt-auto">
+                                    Mais detalhes
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 6 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card shadow-lg rounded-3">
+                         <img src="./assets/images/series/max.jpg" class="card-img-top rounded-top" alt="Série Fantástica">
+                            <div class="card-body">
+                                <h5 class="card-title text-center font-weight-bold">Maxton Hall</h5>
+                                <p class="card-text text-muted">
+                                    Uma série de fantasia envolvente, cheia de criaturas fantásticas e aventuras épicas.
+                                </p>
+                                <a href="#" target="_blank" class="btn btn-primary mt-auto">
+                                    Mais detalhes
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+          <!-- <div class="col-12 col-md-6 col-lg-4">
                       <div class="card mb-4">
                         <img src="./assets/images/series/De_Volta_aos_15.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">De volta aos 15</h5>
-                          <p class="card-text">Para mais informações clique no botão abaixo e conheça mais da série</p>
+                          
                           <a href="serie.html" class="btn btn-primary">Ver mais</a>
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="card mb-4">
                           <img src="./assets/images/series/sorriso.webp" class="card-img-top" alt="...">
                           <div class="card-body">
                             <h5 class="card-title">Sorriso Real</h5>
-                            <p class="card-text">Para mais informações clique no botão abaixo e conheça mais da série</p>
+                            
                             <a href="serie.html" class="btn btn-primary">Ver mais</a>
                           </div>
                         </div>
                       </div>
 
                    
-                    <div class="col-sm-6 col-md-4 col-lg-3">
+                      <div class="col-12 col-md-6 col-lg-4">
                       <div class="card mb-4">
                         <img src="./assets/images/series/rainha.png" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Rainha das Lagrimas</h5>
-                          <p class="card-text">Para mais informações clique no botão abaixo e conheça mais da série</p>
+                          
                           <a href="serie.html" class="btn btn-primary">Ver mais</a>
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="col-12 col-md-6 col-lg-4">
                       <div class="card mb-4">
                         <img src="./assets/images/series/chosen.webp" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">The Chosen</h5>
-                          <p class="card-text">Para mais informações clique no botão abaixo e conheça mais da série</p>
+                          
                           <a href="serie.html" class="btn btn-primary">Ver mais</a>
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="card mb-4">
                           <img src="./assets/images/series/gg.webp" class="card-img-top" alt="...">
                           <div class="card-body">
                             <h5 class="card-title">Gossip Girl</h5>
-                            <p class="card-text">Para mais informações clique no botão abaixo e conheça mais da série</p>
+                            
                             <a href="serie.html" class="btn btn-primary">Ver mais</a>
                           </div>
                         </div>
                       </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3">
+                      <div class="col-12 col-md-6 col-lg-4">
                       <div class="card mb-4">
                         <img src="./assets/images/series/true-beauty-featured-image.webp" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Beleza verdadeira</h5>
-                          <p class="card-text">Para mais informações clique no botão abaixo e conheça mais da série</p>
+                          
                           <a href="serie.html" class="btn btn-primary">Ver mais</a>
                         </div>
                       </div>
                     </div>
 
-                    <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="card mb-4">
                           <img src="./assets/images/series/Emily-em-Paris-2-Temporada.jpg" class="card-img-top" alt="...">
                           <div class="card-body">
                             <h5 class="card-title">Emily em Paris</h5>
-                            <p class="card-text">Para mais informações clique no botão abaixo e conheça mais da série</p>
+                            
                             <a href="serie.html" class="btn btn-primary">Ver mais</a>
                           </div>
                         </div>
                       </div>
-                      <div class="col-sm-6 col-md-4 col-lg-3">
+                      <div class="col-12 col-md-6 col-lg-4">
                         <div class="card mb-4">
                           <img src="./assets/images/series/bridgerton.jpg" class="card-img-top" alt="...">
                           <div class="card-body">
                             <h5 class="card-title">Bridgerton</h5>
-                            <p class="card-text">Para mais informações clique no botão abaixo e conheça mais da série</p>
+                            
                             <a href="serie.html" class="btn btn-primary">Ver mais</a>
                           </div>
                         </div>
                       </div>
-                      <div class="col-sm-6 col-md-4 col-lg-3">
+                      <div class="col-12 col-md-6 col-lg-4">
                         <div class="card mb-4">
                           <img src="./assets/images/series/friends.webp" class="card-img-top" alt="...">
                           <div class="card-body">
                             <h5 class="card-title">Friends</h5>
-                            <p class="card-text">Para mais informações clique no botão abaixo e conheça mais da série</p>
+                            
                             <a href="serie.html" class="btn btn-primary">Ver mais</a>
                           </div>
                         </div>
                       </div>
-                      <div class="col-sm-6 col-md-4 col-lg-3">
+                      <div class="col-12 col-md-6 col-lg-4">
                         <div class="card mb-4">
                           <img src="./assets/images/series/Wandinha.png" class="card-img-top" alt="...">
                           <div class="card-body">
                             <h5 class="card-title">Wandinha</h5>
-                            <p class="card-text">Para mais informações clique no botão abaixo e conheça mais da série</p>
+                            
                             <a href="serie.html" class="btn btn-primary">Ver mais</a>
                           </div>
                         </div>
                       </div>
-                      <div class="col-sm-6 col-md-4 col-lg-3">
+                      <div class="col-12 col-md-6 col-lg-4">
                         <div class="card mb-4">
                           <img src="./assets/images/series/max.jpg" class="card-img-top" alt="...">
                           <div class="card-body">
                             <h5 class="card-title">Maxton Hall</h5>
-                            <p class="card-text">Para mais informações clique no botão abaixo e conheça mais da série</p>
+                            
                             <a href="serie.html" class="btn btn-primary">Ver mais</a>
                           </div>
                         </div>
-                      </div>
+                      </div> -->
 
                   </div>
               
